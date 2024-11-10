@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 body {
 	background: #282828;
 }
 
-h1 {
-	color: #ebdbb2;
-	text-align: center;
-}
-
-p {
+h1, h2, p {
+  font-family: JetBrains Mono;
 	color: #ebdbb2;
 	text-align: center;
 }
 
 .container {
 	text-align: center;
+}
+
+img {
+  border: 3px solid #ebdbb2;
+  border-radius: 20px;
 }
 
 a:link {
@@ -34,4 +37,3 @@ a:hover {
 a:active {
   color: #d3869b;
 }
-
