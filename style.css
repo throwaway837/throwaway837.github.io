@@ -10,22 +10,19 @@ h1, h2, p {
 	text-align: center;
 }
 
-.image-container {
-  text-align: center;
-  transition: transform 0.3s ease;
-}
-
-.image-container:hover {
-  transform: scale(1.05);
-}
-
 .centered-container {
 	text-align: center;
 }
 
 img {
+  transition: transform 0.3s ease;
+  
   border: 4px solid #ebdbb2;
   border-radius: 20px;
+}
+
+img:hover {
+  transform: scale(1.05);
 }
 
 a:link {
